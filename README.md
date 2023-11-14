@@ -2,7 +2,7 @@
 
 ## Informacion general
 * Se realiza Automatización de pruebas sobre la página  [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada"), se implementan varios flujos de prueba en la pagina.
-* El proyecto esta consevido bajo el patron de diseño POM (Page Object Model).
+* El proyecto esta consevido bajo el patron de diseño Screenplay.
 * Cada feature  se puede ejecutar desde la  clase  Runner, ubicada en `src > test > java  > runners`
 
 ## Construido con:
