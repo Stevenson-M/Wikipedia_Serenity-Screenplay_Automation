@@ -1,16 +1,33 @@
-# Projecto de automatizacion serenity POM
+# Serenity POM Automation Project
 
-## Informacion general
-* Se realiza Automatización de pruebas sobre la página  [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada"), se implementan varios flujos de prueba en la pagina.
-* El proyecto esta consevido bajo el patron de diseño Screenplay.
-* Cada feature  se puede ejecutar desde la  clase  Runner, ubicada en `src > test > java  > runners`
+## General Information
+* This project automates tests on the [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) page, implementing several test flows on the site.
+* The project is designed following the Screenplay design pattern.
+* Each feature can be executed from the Runner class located in `src > test > java > runners`.
 
-## Construido con:
+## Built With:
+* [Java 8](https://docs.oracle.com/javase/8/docs/)
+* [Cucumber](https://cucumber.io/docs/cucumber/)
+* [Serenity](https://serenity-bdd.github.io/docs/tutorials/first_test)
 
-* [Java 8](https://docs.oracle.com/javase/8/docs/ "Java 8")
-* [Cucumber](https://cucumber.io/docs/cucumber/ "Cucumber")
-* [Serenity](https://serenity-bdd.github.io/docs/tutorials/first_test "Serenity")
+## Project Structure
+```plaintext
+serenity-pom-automation/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   ├── test/
+│   │   └── java/
+│   │       └── org/
+│   │           └── valid/
+│   │               ├── configuration/
+│   │               ├── pages/
+│   │               ├── reporting/
+│   │               ├── tests/
+│   │               └── utils/
+├── pom.xml
+└── README.md
+```
 
-## Autor:
-
-* Jinson Stevenson Moreno Aguilar - jinson.moreno@gmail.com
+## Author:
+* Jinson Stevenson Moreno Aguilar - [jinson.moreno@gmail.com](mailto:jinson.moreno@gmail.com)
